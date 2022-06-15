@@ -1,0 +1,5 @@
+opencv-python==4.5.5.62
+numpy==1.21.4
+matplotlib==3.5.0
+colormath==3.0.0
+pillow==8.4.0
