@@ -1,0 +1,5 @@
+The example data is too large to host directly on github. Please download the data from:
+
+https://figshare.com/articles/dataset/Haverford_Aging_Chamber_Output_For_MA_CHMA_Perovskite_System/20407761
+
+Unzip the data, and place the contents within this folder.
