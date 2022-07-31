@@ -1,3 +1,8 @@
+This chamber is the Generation 2 Haverford chamber in an open-hardware project for developing degradation chambers for perovskite materials (see figure below). The project is described in detail in article: [insert details]
+
+![Degradation chamber generations in the open-hardware project. This repository describes Haverford Gen. 2 chamber.](https://github.com/PV-Lab/hte_degradation_chamber/blob/main/Chamber_generations.png)
+
+
 
 PREREQUISITE SOFTWARE
 - ThorLabs Camera Software (For time-lapse image collection)
