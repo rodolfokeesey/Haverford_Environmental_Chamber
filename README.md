@@ -23,8 +23,7 @@ PATHING
 
 These chamber scripts are meant to work with the following folder structure:
 
-Chamber Data # root for all the chamber data. This is the path you enter for chamber_data_path. You can place this folder wherever. <br />
-             # A sample folder is included in the repository as Chamber_Test_folder with one example experiment.<br />
+Chamber Data # root for all the chamber data. This is the path you enter for chamber_data_path. You can place this folder wherever. A sample folder is included in the repository as Chamber_Test_folder with one example experiment.<br />
 -> RK_37 # example experiment run. This folder is a placeholder, the raw data is too large to post on github but can be downloaded here: https://figshare.com/articles/dataset/Haverford_Aging_Chamber_Output_For_MA_CHMA_Perovskite_System/20407761<br />
 -> Color_Calibration_5_6_22 # Folder storing the two Xrite Color Checker Images<br />
 -> Video_Queue # The temporary file that where the time lapse .avi video from the Thorlabs application is saved<br />
