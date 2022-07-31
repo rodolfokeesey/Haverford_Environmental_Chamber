@@ -29,6 +29,8 @@ Chamber Data # root for all the chamber data. This is the path you enter for cha
 -> Video_Queue # The temporary file that where the time lapse .avi video from the Thorlabs application is saved<br />
 -> Sample_Temp_Queue # The temporary file that where the .txt log from the Automation's Direct Solo Configuration application is saved<br />
 
+Clone the repository and update the path for each script to Chamber_Data.
+
 ENVIRONMENT
 
 These codes have been tested in Windows 10 in anaconder using Spyder.
@@ -59,7 +61,7 @@ CALIBRATION (calibration_color_extraction.py)
 
 1) Before beginning chamber use, the color calibration reference photos of the Xrite Color Checker must be taken.
 
-2) Take two photos of the Xrite Color Checker. The orientation of the photos must match the included examples.
+2) Take two photos of the Xrite Color Checker. The orientation of the photos must match the included examples. Adjust the focus and the height of the camera until the color checker is in focus.
 
 3) Once the two calibration photos have been taken, run the calibration_color_extraction.py script, and follow the prompts.
 After calibration is completed, the Aging Chamber is ready for use.
