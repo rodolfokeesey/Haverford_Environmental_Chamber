@@ -1,8 +1,10 @@
-This chamber is the Generation 2 Haverford chamber in an open-hardware project for developing degradation chambers for perovskite materials (see figure below). The project is described in detail in article: [insert details]
+This repository is for the Generation 2 Haverford chamber in an open-hardware project for developing degradation chambers for perovskite materials (see figure below). It contains build instructions, 3D assets, and the codebase for replicating the design. 
+This chamber has the capability of controlling sample temperature, humidity, and illumination of bulk perovskite samples. Sample degredation is recorded via automated color calibrated imaging.
 
 ![Degradation chamber generations in the open-hardware project. This repository describes Haverford Gen. 2 chamber.](https://github.com/PV-Lab/hte_degradation_chamber/blob/main/Chamber_generations.png)
 
-
+HARDWARE BUILD GUIDE:
+- For the hardware build guide, please see the build guide located within the Documentation folder
 
 PREREQUISITE SOFTWARE
 - ThorLabs Camera Software (For time-lapse image collection)
@@ -19,13 +21,13 @@ PATHING
 
 These chamber scripts are meant to work with the following folder structure:
 
-Chamber Data # root for all the chamber data. This is the path you enter for chamber_data_path. You can place this folder wherever. 
-             # A sample folder is included in the repository as Chamber_Test_folder with one example experiment.
--> RK_37 # example experiment run
--> RK_38 # example experiment tun
--> Color_Calibration_5_6_22 # Folder storing the two Xrite Color Checker Images
--> Video_Queue # The temporary file that where the time lapse .avi video from the Thorlabs application is saved
--> Sample_Temp_Queue # The temporary file that where the .txt log from the Automation's Direct Solo Configuration application is saved
+Chamber Data # root for all the chamber data. This is the path you enter for chamber_data_path. You can place this folder wherever. <br />
+             # A sample folder is included in the repository as Chamber_Test_folder with one example experiment.<br />
+-> RK_37 # example experiment run<br />
+-> RK_38 # example experiment tun<br />
+-> Color_Calibration_5_6_22 # Folder storing the two Xrite Color Checker Images<br />
+-> Video_Queue # The temporary file that where the time lapse .avi video from the Thorlabs application is saved<br />
+-> Sample_Temp_Queue # The temporary file that where the .txt log from the Automation's Direct Solo Configuration application is saved<br />
 
 ENVIRONMENT
 
