@@ -36,7 +36,9 @@ all_images = "all_frames"
 # Number of seconds between frames of image capture
 image_sample_rate = 60
 # Year of the experiment run
-Year = "22 " 
+Year = "22 "
+# Enter Humidity Offset, taken from comparisons to external probe
+humidity_offset = 15
 
 #%% Image Processing Functions. These are used to extract the well locations, the orders etc.
 
